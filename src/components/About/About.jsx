@@ -44,11 +44,8 @@ const About = () => {
                   
                     {/* About Me Paragraph */}
                     <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-                        I am a full-stack developer with over 2 years of experience in
-                        building scalable web applications. Skilled in both front-end and
-                        back-end development, I specialize in the MERN stack and other
-                        modern technologies to create seamless user experiences and
-                        efficient solutions.
+                       I'm currently pursuing a B.Tech in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning. Alongside my academic journey, I've gained extensive hands-on experience in full-stack development using the MERN stack, building robust, scalable, and user-friendly web applications. My passion lies in bridging cutting-edge AI solutions with seamless digital experiences—turning innovative ideas into impactful products.
+
                     </p>
                     {/* Resume Button */}
                     <a

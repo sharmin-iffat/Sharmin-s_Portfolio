@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar/Navbar.jsx";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills.jsx";
 import Experience from "./components/Experience/Experience.jsx";
-// import Project from "./components/Projects/Projects.jsx";
 import Work from "./components/Projects/Work.jsx";
 import Education from "./components/Education/Education.jsx";
 import Contact from "./components/Contact/Contact.jsx";
