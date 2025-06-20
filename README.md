@@ -111,9 +111,9 @@ This project is deployed on GitHub Pages. To deploy your own version:
 
 - **Email:** sharmin.iffat@example.com
 - **LinkedIn:** [Sharmin Iffat](https://www.linkedin.com/in/sharminiffat)
-- **GitHub:** [sharminiffat](https://github.com/sharminiffat)
+- **GitHub:** [sharmin Iffat](https://github.com/sharminiffat)
 - **Facebook:** [Sharmin Iffat](https://www.facebook.com/sharminiffat)
-- **Instagram:** [@sharminiffat](https://www.instagram.com/sharminiffat)
+- **Instagram:** [@sharmin Iffat](https://www.instagram.com/sharminiffat)
 
 ---
 
