@@ -131,7 +131,7 @@ export const education = [
     img: sbuLogo,
     school: "Sarala Birla University, Ranchi",
     date: "Aug 2022 - Expected(May 2026)",
-    grade: "8.07 CGPA(upto 5th sem)",
+    grade: "8.12 CGPA(upto 6th sem)",
     desc: "I pursuing  Bachelor of Technology in Computer Science and Engineering from Sarala Birla University,Ranchi. Throughout my studies, A comprehensive four-year program combining foundational computer science education with advanced coursework in AI and ML. Developed expertise in programming, algorithms, neural networks, and deep learning, while exploring real-world applications of intelligent systems. Alongside academic training, I built practical experience in full-stack web development with the MERN stack (MongoDB, Express.js, React, Node.js)—strengthening my skills in both intelligent computing and scalable software development.",
     degree:
       "Bachelor of Technology in Computer Science and Engineering (Specialization in Artificial Intelligence & Machine Learning)",

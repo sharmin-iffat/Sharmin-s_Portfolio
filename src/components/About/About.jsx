@@ -3,7 +3,8 @@ import React from 'react';
 import ReactTypingEffect from "react-typing-effect";
 import Tilt from 'react-parallax-tilt';
 // import profileImage from '../../assets/pppppppppp.jpg';
-import profileImage from '../../assets/sharmin.png';
+//import profileImage from '../../assets/sharmin.png';
+import profileImage from '../../assets/sharmin_oak.jpg'
 
 const About = () => {
     return (
@@ -49,7 +50,7 @@ const About = () => {
                     </p>
                     {/* Resume Button */}
                     <a
-                        href="https://drive.google.com/file/d/1CijW2OaG4HThuQKAhkS8rtXxsuy2AFfY/view?usp=drivesdk"
+                        href="https://drive.google.com/file/d/1-Dc2eSB5oUORpQFWJHLy36ryvyV6zshP/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
