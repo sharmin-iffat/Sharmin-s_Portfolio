@@ -12,7 +12,7 @@ import nodejsLogo from "./assets/tech_logo/nodejs.png";
 import expressjsLogo from "./assets/tech_logo/express.png";
 import mysqlLogo from "./assets/tech_logo/mysql.png";
 import mongodbLogo from "./assets/tech_logo/mongodb.png";
-import firebaseLogo from "./assets/tech_logo/firebase.png";
+// import firebaseLogo from "./assets/tech_logo/firebase.png";
 
 import numpyLogo from "./assets/tech_logo/numpy.png";
 import pandasLogo from "./assets/tech_logo/pandas.png";
@@ -43,6 +43,7 @@ import mpsLogo from "./assets/Education_logo/mps.png";
 
 // Project Section Logo's
 import codeCrafter from "./assets/Work_image/codeCrafter.png";
+import TreeCount from "./assets/Work_image/TreeCount.png"
 import EpicEscape from "./assets/Work_image/EpicEscape.jpg";
 import notesapp from "./assets/Work_image/NotesApp.png";
 import netflix from "./assets/Work_image/Netflix.png";
@@ -69,7 +70,7 @@ export const SkillsInfo = [
       { name: "Express JS", logo: expressjsLogo },
       { name: "MySQL", logo: mysqlLogo },
       { name: "MongoDB", logo: mongodbLogo },
-      { name: "Firebase", logo: firebaseLogo },
+      
     ],
   },
  
@@ -111,18 +112,36 @@ export const experiences = [
     id: 0,
     img: edunetLogo,
     role: "Artificial Intelligence Intern",
-    company: "Edunet Foundation",
-    date: "May 2025 - June 2025",
-    desc: "During this internship, I developed an AI assistant aimed at improving user interaction and automating repetitive tasks. I worked extensively with Python and its core libraries, including NumPy, Pandas, and scikit-learn, to implement machine learning logic and handle data processing. I also integrated basic natural language processing using libraries like NLTK and spaCy to enable smarter user communication.",
+    company: "366Pi Technologies",
+    date: "July 2025 - August 2025",
+    desc: "During this internship, I developed an AI-powered tree counting system using object detection on drone and aerial video frames, achieving 90% detection accuracy.",
     skills: [
       "Python",
       "NumPy",
       "Pandas",
-      "Matplotlib",
-      "Seaborn",
-      "Scikit-learn",
+      "Pytorch",
+      "OpenCV",
+      "Yolov8",
+      "CVAT",
+
     ],
   },
+  // {
+  //   id: 1,
+  //   img: edunetLogo,
+  //   role: "Artificial Intelligence Intern",
+  //   company: "Edunet Foundation",
+  //   date: "May 2025 - June 2025",
+  //   desc: "During this internship, I developed an AI assistant aimed at improving user interaction and automating repetitive tasks. I worked extensively with Python and its core libraries, including NumPy, Pandas, and scikit-learn, to implement machine learning logic and handle data processing. I also integrated basic natural language processing using libraries like NLTK and spaCy to enable smarter user communication.",
+  //   skills: [
+  //     "Python",
+  //     "NumPy",
+  //     "Pandas",
+  //     "Matplotlib",
+  //     "Seaborn",
+  //     "Scikit-learn",
+  //   ],
+  // },
 ];
 
 export const education = [
@@ -132,7 +151,7 @@ export const education = [
     school: "Sarala Birla University, Ranchi",
     date: "Aug 2022 - Expected(May 2026)",
     grade: "8.12 CGPA(upto 6th sem)",
-    desc: "I pursuing  Bachelor of Technology in Computer Science and Engineering from Sarala Birla University,Ranchi. Throughout my studies, A comprehensive four-year program combining foundational computer science education with advanced coursework in AI and ML. Developed expertise in programming, algorithms, neural networks, and deep learning, while exploring real-world applications of intelligent systems. Alongside academic training, I built practical experience in full-stack web development with the MERN stack (MongoDB, Express.js, React, Node.js)—strengthening my skills in both intelligent computing and scalable software development.",
+    desc: "I am pursuing a Bachelor of Technology in Computer Science and Engineering at Sarala Birla University, Ranchi. My four-year program covers core computer science fundamentals with advanced studies in AI and ML, building expertise in programming, algorithms, neural networks, and deep learning. Alongside academics, I have gained hands-on experience in full-stack web development using the MERN stack, strengthening my skills in intelligent systems and scalable software development.",
     degree:
       "Bachelor of Technology in Computer Science and Engineering (Specialization in Artificial Intelligence & Machine Learning)",
   },
@@ -159,11 +178,11 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Code Crafter",
+    title: "AI- powered tree counting system",
     description:
       "Code Crafter is a smart code review assistant that analyzes your codebase, identifies potential improvements, and suggests enhancements using the Gemini API. Built with React.js, Node.js, and styled with CSS, this tool helps developers write cleaner, more efficient code by offering intelligent, real-time feedback right in their development workflow.",
 
-    image: codeCrafter,
+    image: TreeCount,
     tags: [
       "HTML",
       "CSS",
@@ -174,9 +193,29 @@ export const projects = [
       "Express",
     ],
     github:
-      "https://github.com/sharmin-iffat/CodeCrafter-A-Code-Reviewer-Website",
+      "https://github.com/sharmin-iffat/Tree-Detection",
     // webapp:
   },
+  // {
+  //   id: 0,
+  //   title: "Code Crafter",
+  //   description:
+  //     "Code Crafter is a smart code review assistant that analyzes your codebase, identifies potential improvements, and suggests enhancements using the Gemini API. Built with React.js, Node.js, and styled with CSS, this tool helps developers write cleaner, more efficient code by offering intelligent, real-time feedback right in their development workflow.",
+
+  //   image: codeCrafter,
+  //   tags: [
+  //     "HTML",
+  //     "CSS",
+  //     "JavaScript",
+  //     "React JS",
+  //     "API",
+  //     "Node.js",
+  //     "Express",
+  //   ],
+  //   github:
+  //     "https://github.com/sharmin-iffat/CodeCrafter-A-Code-Reviewer-Website",
+  //   // webapp:
+  // },
   {
     id: 1,
     title: "Epic Escape",
@@ -197,38 +236,38 @@ export const projects = [
     github: "https://github.com/sharmin-iffat/Notes-App",
     // webapp:
   },
-  {
-    id: 3,
-    title: "Netflix Data Analysis",
-    description:
-      "The Netflix Data Analysis Project examines patterns in titles, genres, and release trends to uncover viewer insights using Python and data visualization tools. It showcases skills in data cleaning, exploratory analysis, and storytelling through visuals.",
-    image: netflix,
-    tags: [
-      "Python",
-      "NumPy",
-      "Pandas",
-      "Matplotlib",
-      "Seaborn",
-      "Jupyter Notebook",
-    ],
-    github: "https://github.com/sharmin-iffat/NetflixDataAnalysis",
-    // webapp:
-  },
-  {
-    id: 4,
-    title: "House Price Prediction",
-    description:
-      "This project uses the California Housing dataset and XGBRegressor to predict house prices based on features like location, income, and population. It highlights skills in data preprocessing, model building, and evaluation.",
-    image: housePrice,
-    tags: [
-      "Python",
-      "NumPy",
-      "Pandas",
-      "Matplotlib",
-      "Seaborn",
-      "Scikit-learn",
-      "Jupyter Notebook",
-    ],
-    github: "https://github.com/sharmin-iffat/House-Price-Prediction",
-  },
+  // {
+  //   id: 3,
+  //   title: "Netflix Data Analysis",
+  //   description:
+  //     "The Netflix Data Analysis Project examines patterns in titles, genres, and release trends to uncover viewer insights using Python and data visualization tools. It showcases skills in data cleaning, exploratory analysis, and storytelling through visuals.",
+  //   image: netflix,
+  //   tags: [
+  //     "Python",
+  //     "NumPy",
+  //     "Pandas",
+  //     "Matplotlib",
+  //     "Seaborn",
+  //     "Jupyter Notebook",
+  //   ],
+  //   github: "https://github.com/sharmin-iffat/NetflixDataAnalysis",
+  //   // webapp:
+  // },
+  // {
+  //   id: 4,
+  //   title: "House Price Prediction",
+  //   description:
+  //     "This project uses the California Housing dataset and XGBRegressor to predict house prices based on features like location, income, and population. It highlights skills in data preprocessing, model building, and evaluation.",
+  //   image: housePrice,
+  //   tags: [
+  //     "Python",
+  //     "NumPy",
+  //     "Pandas",
+  //     "Matplotlib",
+  //     "Seaborn",
+  //     "Scikit-learn",
+  //     "Jupyter Notebook",
+  //   ],
+  //   github: "https://github.com/sharmin-iffat/House-Price-Prediction",
+  // },
 ];
