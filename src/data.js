@@ -33,7 +33,7 @@ import vercelLogo from "./assets/tech_logo/vercel.png";
 
 // Experience Section Logo's
 import edunetLogo from './assets/Experience/edunet-foundation.png';
-// import agcLogo from './assets/company_logo/agc_logo.png';
+import internship from './assets/Experience/Pi-tech.png';
 // import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
@@ -110,7 +110,7 @@ export const SkillsInfo = [
 export const experiences = [
   {
     id: 0,
-    img: edunetLogo,
+    img: internship,
     role: "Artificial Intelligence Intern",
     company: "366Pi Technologies",
     date: "July 2025 - August 2025",
@@ -126,22 +126,22 @@ export const experiences = [
 
     ],
   },
-  // {
-  //   id: 1,
-  //   img: edunetLogo,
-  //   role: "Artificial Intelligence Intern",
-  //   company: "Edunet Foundation",
-  //   date: "May 2025 - June 2025",
-  //   desc: "During this internship, I developed an AI assistant aimed at improving user interaction and automating repetitive tasks. I worked extensively with Python and its core libraries, including NumPy, Pandas, and scikit-learn, to implement machine learning logic and handle data processing. I also integrated basic natural language processing using libraries like NLTK and spaCy to enable smarter user communication.",
-  //   skills: [
-  //     "Python",
-  //     "NumPy",
-  //     "Pandas",
-  //     "Matplotlib",
-  //     "Seaborn",
-  //     "Scikit-learn",
-  //   ],
-  // },
+  {
+    id: 1,
+    img: edunetLogo,
+    role: "Artificial Intelligence Intern",
+    company: "Edunet Foundation",
+    date: "May 2025 - June 2025",
+    desc: "During this internship, I developed an AI assistant aimed at improving user interaction and automating repetitive tasks. I worked extensively with Python and its core libraries, including NumPy, Pandas, and scikit-learn, to implement machine learning logic and handle data processing. I also integrated basic natural language processing using libraries like NLTK and spaCy to enable smarter user communication.",
+    skills: [
+      "Python",
+      "NumPy",
+      "Pandas",
+      "Matplotlib",
+      "Seaborn",
+      "Scikit-learn",
+    ],
+  },
 ];
 
 export const education = [
